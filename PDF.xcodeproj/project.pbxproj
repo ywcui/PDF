@@ -15,6 +15,14 @@
 		5B41F0CB1BC245FC003151BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B41F0C91BC245FC003151BE /* LaunchScreen.storyboard */; };
 		5B41F0D61BC245FC003151BE /* PDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B41F0D51BC245FC003151BE /* PDFTests.m */; };
 		5B41F0E11BC245FC003151BE /* PDFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B41F0E01BC245FC003151BE /* PDFUITests.m */; };
+		5BA4104C1BC5F83F0092B3D1 /* 001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA4103F1BC5F83F0092B3D1 /* 001.pdf */; settings = {ASSET_TAGS = (); }; };
+		5BA4104D1BC5F83F0092B3D1 /* 002.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA410401BC5F83F0092B3D1 /* 002.pdf */; settings = {ASSET_TAGS = (); }; };
+		5BA4104E1BC5F83F0092B3D1 /* 003.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA410411BC5F83F0092B3D1 /* 003.pdf */; settings = {ASSET_TAGS = (); }; };
+		5BA4104F1BC5F83F0092B3D1 /* ZPDFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA410431BC5F83F0092B3D1 /* ZPDFListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5BA410501BC5F83F0092B3D1 /* ZPDFPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA410451BC5F83F0092B3D1 /* ZPDFPageController.m */; settings = {ASSET_TAGS = (); }; };
+		5BA410511BC5F83F0092B3D1 /* ZPDFPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA410471BC5F83F0092B3D1 /* ZPDFPageModel.m */; settings = {ASSET_TAGS = (); }; };
+		5BA410521BC5F83F0092B3D1 /* ZPDFReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA410491BC5F83F0092B3D1 /* ZPDFReaderController.m */; settings = {ASSET_TAGS = (); }; };
+		5BA410531BC5F83F0092B3D1 /* ZPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4104B1BC5F83F0092B3D1 /* ZPDFView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		5B41F0DC1BC245FC003151BE /* PDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B41F0E01BC245FC003151BE /* PDFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFUITests.m; sourceTree = "<group>"; };
 		5B41F0E21BC245FC003151BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA4103F1BC5F83F0092B3D1 /* 001.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 001.pdf; sourceTree = "<group>"; };
+		5BA410401BC5F83F0092B3D1 /* 002.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 002.pdf; sourceTree = "<group>"; };
+		5BA410411BC5F83F0092B3D1 /* 003.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 003.pdf; sourceTree = "<group>"; };
+		5BA410421BC5F83F0092B3D1 /* ZPDFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFListViewController.h; sourceTree = "<group>"; };
+		5BA410431BC5F83F0092B3D1 /* ZPDFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFListViewController.m; sourceTree = "<group>"; };
+		5BA410441BC5F83F0092B3D1 /* ZPDFPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFPageController.h; sourceTree = "<group>"; };
+		5BA410451BC5F83F0092B3D1 /* ZPDFPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFPageController.m; sourceTree = "<group>"; };
+		5BA410461BC5F83F0092B3D1 /* ZPDFPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFPageModel.h; sourceTree = "<group>"; };
+		5BA410471BC5F83F0092B3D1 /* ZPDFPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFPageModel.m; sourceTree = "<group>"; };
+		5BA410481BC5F83F0092B3D1 /* ZPDFReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFReaderController.h; sourceTree = "<group>"; };
+		5BA410491BC5F83F0092B3D1 /* ZPDFReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFReaderController.m; sourceTree = "<group>"; };
+		5BA4104A1BC5F83F0092B3D1 /* ZPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFView.h; sourceTree = "<group>"; };
+		5BA4104B1BC5F83F0092B3D1 /* ZPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		5B41F0BA1BC245FC003151BE /* PDF */ = {
 			isa = PBXGroup;
 			children = (
+				5BA4103E1BC5F83F0092B3D1 /* PDFReader */,
 				5B41F0BE1BC245FC003151BE /* AppDelegate.h */,
 				5B41F0BF1BC245FC003151BE /* AppDelegate.m */,
 				5B41F0C11BC245FC003151BE /* ViewController.h */,
@@ -138,6 +160,26 @@
 				5B41F0E21BC245FC003151BE /* Info.plist */,
 			);
 			path = PDFUITests;
+			sourceTree = "<group>";
+		};
+		5BA4103E1BC5F83F0092B3D1 /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4103F1BC5F83F0092B3D1 /* 001.pdf */,
+				5BA410401BC5F83F0092B3D1 /* 002.pdf */,
+				5BA410411BC5F83F0092B3D1 /* 003.pdf */,
+				5BA410421BC5F83F0092B3D1 /* ZPDFListViewController.h */,
+				5BA410431BC5F83F0092B3D1 /* ZPDFListViewController.m */,
+				5BA410441BC5F83F0092B3D1 /* ZPDFPageController.h */,
+				5BA410451BC5F83F0092B3D1 /* ZPDFPageController.m */,
+				5BA410461BC5F83F0092B3D1 /* ZPDFPageModel.h */,
+				5BA410471BC5F83F0092B3D1 /* ZPDFPageModel.m */,
+				5BA410481BC5F83F0092B3D1 /* ZPDFReaderController.h */,
+				5BA410491BC5F83F0092B3D1 /* ZPDFReaderController.m */,
+				5BA4104A1BC5F83F0092B3D1 /* ZPDFView.h */,
+				5BA4104B1BC5F83F0092B3D1 /* ZPDFView.m */,
+			);
+			path = PDFReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +249,7 @@
 				TargetAttributes = {
 					5B41F0B71BC245FC003151BE = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = E2VEPDSZV4;
 					};
 					5B41F0D01BC245FC003151BE = {
 						CreatedOnToolsVersion = 7.0;
@@ -243,9 +286,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA4104E1BC5F83F0092B3D1 /* 003.pdf in Resources */,
+				5BA4104C1BC5F83F0092B3D1 /* 001.pdf in Resources */,
 				5B41F0CB1BC245FC003151BE /* LaunchScreen.storyboard in Resources */,
 				5B41F0C81BC245FC003151BE /* Assets.xcassets in Resources */,
 				5B41F0C61BC245FC003151BE /* Main.storyboard in Resources */,
+				5BA4104D1BC5F83F0092B3D1 /* 002.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +317,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B41F0C31BC245FC003151BE /* ViewController.m in Sources */,
+				5BA410501BC5F83F0092B3D1 /* ZPDFPageController.m in Sources */,
+				5BA410511BC5F83F0092B3D1 /* ZPDFPageModel.m in Sources */,
+				5BA410521BC5F83F0092B3D1 /* ZPDFReaderController.m in Sources */,
+				5BA410531BC5F83F0092B3D1 /* ZPDFView.m in Sources */,
 				5B41F0C01BC245FC003151BE /* AppDelegate.m in Sources */,
+				5BA4104F1BC5F83F0092B3D1 /* ZPDFListViewController.m in Sources */,
 				5B41F0BD1BC245FC003151BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CYW.PDF;
@@ -422,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CYW.PDF;
@@ -496,6 +549,7 @@
 				5B41F0E71BC245FC003151BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B41F0E81BC245FC003151BE /* Build configuration list for PBXNativeTarget "PDFTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +558,7 @@
 				5B41F0EA1BC245FC003151BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B41F0EB1BC245FC003151BE /* Build configuration list for PBXNativeTarget "PDFUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +567,7 @@
 				5B41F0ED1BC245FC003151BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZPDFListViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    //self.window.rootViewController = [[TestViewController alloc] init];
+    //self.window.rootViewController =  [[DemoViewController alloc] init];
+    //self.window.rootViewController =  [[JSDemoViewController alloc] init];
+    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController: [[ZPDFListViewController alloc] init]];
+    self.window.rootViewController = navCtrl;
     return YES;
 }
 
